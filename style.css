@@ -1,0 +1,30 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    border-top-left-radius:25% ;
+}
+.border{
+    border-left: tomato;
+}
+.change-color{
+    color: brown;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width:50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 70%;
+}
+.hire-me-button{
+    text-decoration:none ;
+    background-color: coral;
+    padding:5px 20px ;
+    border-radius:5px ;
+    color: white;
+}
