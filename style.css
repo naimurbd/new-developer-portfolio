@@ -1,12 +1,15 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-#header{
+.head{
     font-size: 50px;
-    border-left: 3px solid rgb(238, 32, 32);
+    border-left:3px solid rgb(238, 32, 32);
     font-weight: 400px;
+    padding-left:15px ;
+    line-height:60px ;
+    
 }
-.change-color{
+.header{
     color: brown;
 }
 .flexible-container{
@@ -14,8 +17,9 @@ body{
 }
 .half-width{
     width:50%;
-    padding-left: 5%;
+    padding: 10px 20px;
     margin: 30px 20px;
+    border-radius:25px ;
 }
 .half-width img{
     width: 70%;
