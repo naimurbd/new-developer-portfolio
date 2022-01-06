@@ -3,23 +3,31 @@ body{
 }
 h1{
     font-size: 50px;
-    border-top-left-radius:25% ;
-}
-.border{
-    border-left: tomato;
+    border-left: 3px solid rgb(238, 32, 32);
+    font-weight: 400px;
 }
 .change-color{
     color: brown;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
     width:50%;
     padding-left: 5%;
+    margin: 30px 20px;
 }
 .half-width img{
     width: 70%;
+}
+.dream-mission{
+ background-color: antiquewhite;   
+}
+.dream-vision{
+    background-color: rgb(250, 143, 250);
+}
+.dream-goal{
+    background-color: rgb(197, 236, 130);
 }
 .hire-me-button{
     text-decoration:none ;
@@ -27,4 +35,18 @@ section{
     padding:5px 20px ;
     border-radius:5px ;
     color: white;
+}
+.center{
+    text-align: center;
+}
+.foot{
+    background-color:black ;
+    text-align: center;
+    padding: 20px;
+}
+.white{
+    color:white ;
+}
+#pink{
+    color: tomato;
 }
